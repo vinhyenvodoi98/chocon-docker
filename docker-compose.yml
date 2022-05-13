@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  chocon:
+    container_name: 'chocon'
+    build: ./
+    ports:
+      - '80:80'
+    command: 'chocon --port 80'
